@@ -1,0 +1,16 @@
+my-cpp-project/
+│
+├── README.md
+├── LICENSE
+├── Makefile          ← or CMakeLists.txt
+│
+├── include/          ← Header files (.h or .hpp)
+│   └── utils.hpp
+│
+├── src/              ← Source files (.cpp)
+│   ├── main.cpp
+│   └── utils.cpp
+│
+├── build/            ← Compiled files (optional, usually ignored in .gitignore)
+│
+└── .gitignore        ← Ignore build files, binaries, etc.
